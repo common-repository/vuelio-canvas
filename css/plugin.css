@@ -1,0 +1,42 @@
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-iframe-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.responsive-iframe-container--sidebar {
+  min-height: 700px;
+  margin-bottom: 2rem;
+}
+.responsive-iframe-container--sidebar iframe {
+  border: 1px solid #ccc;
+}
+.thickbox__logo .wrap {
+  position: relative;
+}
+.thickbox__logo {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 100px;
+  height: auto;
+}
+#canvas-url {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+#canvas-error {
+  display: none;
+  color: red;
+}
